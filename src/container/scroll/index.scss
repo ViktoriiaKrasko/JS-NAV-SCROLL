@@ -1,0 +1,45 @@
+@use '../../style' as s;
+
+body {
+  background-color: antiquewhite;
+}
+
+main {
+  color: #292929;
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+button {
+  background-color: #ff7241;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 130px;
+  width: 60px;
+  height: 60px;
+
+  transition: opacity 0.6s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+
+  display: none;
+}
